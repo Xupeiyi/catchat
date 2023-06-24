@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>catchat</title>
+</head>
+<body>
+    <div>
+        {% for message in messages %}
+            <div class="msg">
+                <span class="name">{{ message.author.email }}</span>
+                <span class="message-body">{{ message.body|safe }}</span>
+            </div>
+        {% endfor%}
+    </div>
+</body>
+</html>
