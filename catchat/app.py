@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from models import User, Message
+from model import User, Message
 
 app = Flask(__name__)
 

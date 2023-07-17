@@ -1,3 +1,5 @@
 flask
 Werkzeug~=2.3.6
 flask_login
+pytest
+sqlalchemy

@@ -1,5 +1,5 @@
 import unittest
-from catchat.models import User
+from catchat.model import User
 
 
 class CreateMessageTest(unittest.TestCase):
